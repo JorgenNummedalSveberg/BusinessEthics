@@ -1,6 +1,6 @@
 import { Server } from 'ws';
 
-export default async function(req, res) {
+export default async function(req) {
     const wss = new Server({ noServer: true });
 
     wss.on('connection', (ws) => {
