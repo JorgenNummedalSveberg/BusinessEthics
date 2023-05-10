@@ -9,3 +9,6 @@
 .vercel
 
 .vercel
+
+*lock.*
+*.lock
